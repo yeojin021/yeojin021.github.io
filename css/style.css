@@ -1265,6 +1265,24 @@
     line-height: 2.4rem;
 }
 
+
+.design .send {
+    position: relative;
+    z-index: 2;
+}
+
+.design .send::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 62%;
+    height: 100%;
+    z-index: -1;
+    background: #fff2af;
+}
+
 @media (max-width:768px) {
 
     .design {
@@ -1431,7 +1449,7 @@
     width: 48rem;
     height: 48rem;
     /* border: 1px solid tomato; */
-    background: url(../images/cc.png)no-repeat center center/cover;
+    background: url(../images/couple.png)no-repeat center center/cover;
     /* margin-left: 24rem; */
 }
 
@@ -1485,6 +1503,7 @@
 
 .profile .inner .pof_wrap .pof_bt {
     margin-top: 4.8rem;
+    margin-right: 7.2rem;
 }
 
 .profile .inner .pof_wrap span {
@@ -1591,6 +1610,7 @@
 
     .profile .inner .pof_wrap .pof_bt {
         margin-top: 4.8rem;
+        margin-right: 4rem;
     }
 
     .profile .inner .pof_wrap span {
